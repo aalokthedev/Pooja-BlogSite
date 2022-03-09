@@ -17,63 +17,41 @@
       <div class="form">
         <div class="contact-info">
           <h3 class="title">Let's get in touch</h3>
-          <p class="text">
-            Current Date:
-            <input type="text" id="currentDate" />
-
+          <p Current Date and Time is <span id='date-time'></span>. class="text">
             <script>
-              var today = new Date();
-              var date =
-                today.getFullYear() +
-                "-" +
-                (today.getMonth() + 1) +
-                "-" +
-                today.getDate();
-              document.getElementById("currentDate").value = date;
-            </script>
-            Current Time:
-            <input type="text" id="currentTime" />
-
-            <script>
-              var today = new Date();
-              var time =
-                today.getHours() +
-                ":" +
-                today.getMinutes() +
-                ":" +
-                today.getSeconds();
-              document.getElementById("currentTime").value = time;
-            </script>
-          </p>
+              var dt = new Date();
+              document.getElementById('date-time').innerHTML=dt;
+              </script>
+            
 
           <div class="info">
             <div class="information">
               <img src="img/location.png" class="icon" alt="" />
-              <p>92 Cherry Drive Uniondale, NY 11553</p>
+              <p>Kathmandu, Nepal</p>
             </div>
             <div class="information">
               <img src="img/email.png" class="icon" alt="" />
-              <p>lorem@ipsum.com</p>
+              <p>kharelpooja@gmail.com</p>
             </div>
             <div class="information">
               <img src="img/phone.png" class="icon" alt="" />
-              <p>123-456-789</p>
+              <p>### ### ####</p>
             </div>
           </div>
 
           <div class="social-media">
             <p>Connect with us :</p>
             <div class="social-icons">
-              <a href="#">
+              <a href="https://www.facebook.com/pooza.kharel.7">
                 <i class="fab fa-facebook-f"></i>
               </a>
               <a href="#">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/pooza.kharel.7">
                 <i class="fab fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEc6U2K6KGjaAAAAX9umtwIorA5u90x1fN-_OTI55m2JaWPYE16iUsaMI8P9OzugF2AVLzMyn8G0JDpM93LZwRMRo163drTECGGSBIKdlFiVIWa-JwtT03aXqZ-UMjwnQXwPqU=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fpuja-kharel-055a74210%3Ffbclid%3DIwAR2aVJr3NOB4IWFyNzNRHaEWNVjLLJ9HqySZJ-8pdo0N_Y8d44iDJd_0-M0">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
@@ -106,7 +84,9 @@
               <label for="">Message</label>
               <span>Message</span>
             </div>
-            <a id ="send" class="btn" href="mailto:alokjha5111@gmail.com">Send email</a>
+            <a id ="send" class="btn" href="mailto:kharelpooja@gmail.com">Send email</a>
+            <a class="btn2 "href="mainpage.html">Go Back</a>
+            
            
           </form>
         </div>
