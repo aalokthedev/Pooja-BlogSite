@@ -22,8 +22,10 @@ nav{
 }
 
 .logo{
-    width: 100px;
+    max-width: 500px;
+    height: auto;
     cursor: pointer;
+    size:500%;
 }
 
 nav ul li {
@@ -84,6 +86,7 @@ span{
 
 .images img{
     height: 100%;
+    width: auto;
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -96,12 +99,12 @@ span{
 }
 
 .images:hover .girl{
-    left: 45%;
+    left: 60%;
 }
 
 .social{
     margin-left: 8%;
-    margin-top: 100px;
+    margin-top: 5px;
 }
 
 .social a{
