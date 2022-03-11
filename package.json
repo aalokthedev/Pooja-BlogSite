@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "build-html": "^0.0.1",
+    "html-build": "^1.0.1"
+  }
+}
